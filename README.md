@@ -15,10 +15,14 @@ npm run serve
 npm run build
 ```
 
+
+### Compile and purge css files
+```
+npm run build-css
+npm run purge-css
+```
+
 ### Lints and fixes files
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
