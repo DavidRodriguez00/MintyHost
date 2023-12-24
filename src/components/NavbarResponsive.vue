@@ -1,7 +1,7 @@
 <template>
   <nav class="bg-teal-600 p-4">
     <div class="container mx-auto flex justify-between items-center">
-      <!-- Logo o Nombre del Sitio -->
+      <!-- Logo del Sitio -->
       <router-link to="/" class="text-white text-xl font-semibold">
         <img
           width="228"
@@ -85,7 +85,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-/* Puedes agregar estilos adicionales aquí si es necesario */
-</style>

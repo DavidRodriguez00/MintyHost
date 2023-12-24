@@ -173,7 +173,7 @@ export default {
       }
     },
     async applyFilters() {
-      console.log("applyFilters llamado"); // Para verificar que la función se está llamando
+      console.log("applyFilters llamado");
 
       let params = {};
 
@@ -201,7 +201,7 @@ export default {
             params
           );
           console.log("La funcion applyFilters con filtro: ", response.data);
-          this.apartments = response.data; // Asigna primero los apartamentos
+          this.apartments = response.data;
           this.totalPages = Math.ceil(this.apartments.length / this.perPage);
           this.updatePaginatedApartments();
         } catch (error) {
@@ -243,7 +243,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-/* Estilos si los necesitas */
-</style>

@@ -11,6 +11,8 @@ import App from "./MainPage.vue";
 // Componentes secundarios
 import NavbarResponsive from "./components/NavbarResponsive.vue";
 import ApartmentFilter from "./components/ApartmentFilter.vue";
+import FooterResponsive from "./components/FooterResponsive.vue";
+
 
 // Rutas
 const routes = [
@@ -34,6 +36,8 @@ app.config.globalProperties.$http = axios;
 app.use(router);
 app.component("NavbarResponsive", NavbarResponsive);
 app.component("ApartmentFilter", ApartmentFilter);
+app.component("FooterResponsive", FooterResponsive);
+
 
 // Monta la aplicación en el elemento con ID 'app' en el HTML
 app.mount("#app");

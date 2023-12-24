@@ -36,8 +36,6 @@ export default {
             },
           }
         );
-
-        // Asigna los barrios obtenidos a la variable barrios
         this.barrios = response.data;
       } catch (error) {
         console.error("Error al obtener los barrios:", error);
